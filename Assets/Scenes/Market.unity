@@ -932,6 +932,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toy Salesman
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6dffb6ecb574e474ca8eec12c351960a,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4571,6 +4576,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girlfriend
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 32b89ff418999524181029486273ca5f,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -7156,7 +7166,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f97615af9f343ed4d9fd0a8584f109dd,
         type: 3}
       propertyPath: m_Name
-      value: Musician
+      value: DJ
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: f97615af9f343ed4d9fd0a8584f109dd,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18025,6 +18040,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boyfriend
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 059d5a58f5216c74fb509498883a6b7a,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -18122,6 +18142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Guy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9f45268cc049a264b81997ce97f3864e,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28866,7 +28891,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f30549c7a560a8f46a497fb1d4f46adb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.50551
+      value: -8.25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f30549c7a560a8f46a497fb1d4f46adb,
         type: 3}
@@ -28876,7 +28901,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f30549c7a560a8f46a497fb1d4f46adb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.3504407
+      value: -3.49
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f30549c7a560a8f46a497fb1d4f46adb,
         type: 3}
@@ -28917,6 +28942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: f30549c7a560a8f46a497fb1d4f46adb,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29948,6 +29978,98 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -9144735209240173524, guid: 547918b602e9a664f8bbed6998006b60, type: 3}
+--- !u!1 &1513765279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1513765280}
+  - component: {fileID: 1513765282}
+  - component: {fileID: 1513765281}
+  m_Layer: 0
+  m_Name: GuitarCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1513765280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513765279}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.62580246, y: 0.666254, z: 0.29547742, w: 0.27779493}
+  m_LocalPosition: {x: -0.6191523, y: 0.036616508, z: 0.68380815}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1588612702}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &1513765281
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513765279}
+  m_Enabled: 1
+--- !u!20 &1513765282
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513765279}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 7
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1001 &1514231009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30432,6 +30554,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wrestler
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 30c083aa2bbbfab4abd88b966ff545b1,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31194,6 +31321,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7238891033119205893, guid: ea1d9040b339d034abaa12dd47062386,
     type: 3}
   m_PrefabInstance: {fileID: 1582437718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1588612702 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 410202, guid: 652f1b1c2ef586f45ac26a1ddffab296,
+    type: 3}
+  m_PrefabInstance: {fileID: 2053753420}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1591220284
 PrefabInstance:
@@ -37283,6 +37416,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Knight
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 2a8e209d1f4612e4e9e4e7624798a336,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -39237,7 +39375,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 170924, guid: 652f1b1c2ef586f45ac26a1ddffab296, type: 3}
       propertyPath: m_Name
-      value: GuitarA
+      value: Guitar
       objectReference: {fileID: 0}
     - target: {fileID: 410202, guid: 652f1b1c2ef586f45ac26a1ddffab296, type: 3}
       propertyPath: m_LocalScale.x
@@ -39297,7 +39435,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 410202, guid: 652f1b1c2ef586f45ac26a1ddffab296,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1513765280}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 652f1b1c2ef586f45ac26a1ddffab296, type: 3}
 --- !u!1001 &2061904831
