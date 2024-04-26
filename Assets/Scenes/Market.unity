@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3213917, g: 0.52948046, b: 0.66722345, a: 1}
+  m_IndirectSpecularColor: {r: 0.3213917, g: 0.52948046, b: 0.6672234, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2705,7 +2705,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 154154052}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &149647669
@@ -2878,7 +2879,7 @@ GameObject:
   - component: {fileID: 154154050}
   - component: {fileID: 154154049}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2968,7 +2969,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 149164422}
   m_LocalEulerAnglesHint: {x: 45, y: 23.088, z: 0}
 --- !u!1001 &158788037
 PrefabInstance:
@@ -4476,7 +4477,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 32b89ff418999524181029486273ca5f,
         type: 3}
       propertyPath: m_Name
-      value: Roth
+      value: Girlfriend
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17925,7 +17926,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 059d5a58f5216c74fb509498883a6b7a,
         type: 3}
       propertyPath: m_Name
-      value: Lewis
+      value: Boyfriend
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19970,11 +19971,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1975741767}
     m_Modifications:
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: Couple Trade
+      objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986385, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: conversation
       value: Couple Barks
       objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986388, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: animatorController
+      value: 
+      objectReference: {fileID: 9100000, guid: 4489d086b2f91024492d855af8cadf75, type: 2}
     - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24080,11 +24096,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 46243030}
     m_Modifications:
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: Couple Trade
+      objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986385, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: conversation
       value: Couple Barks
       objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986388, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: animatorController
+      value: 
+      objectReference: {fileID: 9100000, guid: 4489d086b2f91024492d855af8cadf75, type: 2}
     - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28692,7 +28723,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f30549c7a560a8f46a497fb1d4f46adb,
         type: 3}
       propertyPath: m_Name
-      value: Warzombie F Pedroso
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32352,7 +32383,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ab0bd81bf0a320b4981ef5a83de78693,
         type: 3}
       propertyPath: m_Name
-      value: Sophie (Player)
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: ab0bd81bf0a320b4981ef5a83de78693,
         type: 3}
@@ -37053,7 +37084,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2a8e209d1f4612e4e9e4e7624798a336,
         type: 3}
       propertyPath: m_Name
-      value: Paladin J Nordstrom
+      value: Knight
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41266,4 +41297,3 @@ SceneRoots:
   - {fileID: 850514264}
   - {fileID: 173040018}
   - {fileID: 149164422}
-  - {fileID: 154154052}
