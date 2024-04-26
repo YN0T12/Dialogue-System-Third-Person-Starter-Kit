@@ -1259,6 +1259,14 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: 'LookAt(Player, Toy Salesman);
+
+          LookAt(Toy Salesman, Player);
+
+          {{default}};'
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
         value: 
         type: 0
         typeString: 
@@ -1284,7 +1292,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 27.87236
-        y: 69.999985
+        y: 71.06383
         width: 160
         height: 30
     - id: 2
@@ -1331,7 +1339,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetCinemachineBrain(false);
+
+          Camera(Cannon2Camera);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 3
@@ -1356,7 +1368,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 30
-        y: 120
+        y: 118.93617
         width: 160
         height: 30
     - id: 3
@@ -1474,7 +1486,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetCinemachineBrain(true);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 3
@@ -1498,8 +1512,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30.638298
-        y: 218.93619
+        x: 33.829796
+        y: 217.87238
         width: 160
         height: 30
     - id: 5
@@ -1903,7 +1917,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'LookAt(Player, Toy Salesman);
+
+          LookAt(Toy Salesman, Player);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 3
@@ -2245,7 +2263,14 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'LookAt(Wrestler, Player);
+
+          LookAt(Player, Wrestler);
+
+          AnimatorPlay(Sad
+          Idle, Wrestler);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 4
@@ -2459,7 +2484,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetCinemachineBrain(false);
+
+          Camera(JackCamera);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 4
@@ -2602,7 +2631,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetCinemachineBrain(true);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 4
@@ -3238,7 +3269,14 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'LookAt(Wrestler, Player);
+
+          LookAt(Player, Wrestler);
+
+          AnimatorPlay(LowChanceIdleVriation,
+          Wrestler);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 4
@@ -3304,7 +3342,14 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'LookAt(Wrestler, Player);
+
+          LookAt(Player, Wrestler);
+
+          AnimatorPlay(Sad
+          Idle, Wrestler);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 4
@@ -3470,7 +3515,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.6700003
+    canvasZoom: 0.85000014
   - id: 5
     fields:
     - title: Title
@@ -3645,7 +3690,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'LookAt(Player, Knight);
+
+          LookAt(Knight, Player);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 5
@@ -3931,7 +3980,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetCinemachineBrain(false);
+
+          Camera(CoinCamera);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 5
@@ -4144,7 +4197,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetCinemachineBrain(true);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 5
@@ -5419,7 +5474,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'LookAt(Player, Knight);
+
+          LookAt(Knight, Player);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 5
@@ -5556,7 +5615,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'LookAt(Player, Knight);
+
+          LookAt(Knight, Player);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 5
@@ -8095,6 +8158,9 @@ MonoBehaviour:
 
           LookAt(Girlfriend, Player);
 
+          AnimatorPlay(Yelling,
+          Girlfriend);
+
           Delay(2);'
         type: 0
         typeString: 
@@ -8169,6 +8235,9 @@ MonoBehaviour:
         value: 'LookAt(Boyfriend, Girlfriend);
 
           LookAt(Girlfriend, Player);
+
+          AnimatorPlay(Yelling,
+          Girlfriend);
 
           Delay(2);'
         type: 0
@@ -8245,6 +8314,9 @@ MonoBehaviour:
 
           LookAt(Boyfriend, Player);
 
+          AnimatorPlay(Yelling,
+          Boyfriend);
+
           Delay(2);'
         type: 0
         typeString: 
@@ -8319,6 +8391,9 @@ MonoBehaviour:
         value: 'LookAt(Girlfriend, Boyfriend);
 
           LookAt(Boyfriend, Player);
+
+          AnimatorPlay(Yelling,
+          Boyfriend);
 
           Delay(2);'
         type: 0
@@ -8466,6 +8541,11 @@ MonoBehaviour:
 
           LookAt(Player, Boyfriend);
 
+          AnimatorPlay(Yelling,
+          Boyfriend);
+
+          AnimatorPlay(Yelling, Girlfriend);
+
           Delay(1);'
         type: 0
         typeString: 
@@ -8491,7 +8571,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 30
-        y: 320
+        y: 319.0291
         width: 160
         height: 30
     - id: 7

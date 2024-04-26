@@ -21,7 +21,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: f38646ed62d9cca499c3289190e4d82f,
+  m_Motion: {fileID: -203655887218126122, guid: 42d407a6549d16a4da7cd899d0667beb,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -49,7 +49,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 3fe9b827442d5174c9480488696e4e99,
+  m_Motion: {fileID: -203655887218126122, guid: 9b92ded6eaff8734bb3f5defdb62b46e,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -127,9 +127,6 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 6835394227897696624}
     m_Position: {x: 0, y: 0, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 4244267889141502454}
-    m_Position: {x: -230, y: -80, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -146,7 +143,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Npc_Wrestler
+  m_Name: Npc_Zombie
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: RandomAnimationValue
@@ -186,34 +183,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88c136c443a7c484ba44f1fe12a188f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1102 &4244267889141502454
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sad Idle
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 8370102180696127956}
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 8df37b58bf41d1749b56d5d75293112d,
-    type: 3}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1101 &4300100976985815605
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -310,7 +279,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 5b6cf3cf6da4488448b83ff44c3873aa,
+  m_Motion: {fileID: -203655887218126122, guid: c73d03fddbd59fe4bab3d3df84b291a5,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -363,32 +332,10 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 1
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 57ab1080f6fd45a4590fbafa2e10380f,
+  m_Motion: {fileID: -203655887218126122, guid: 14a47173b40a12b469d3b8319e7ca29a,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: CycleOffsetValue
   m_TimeParameter: 
---- !u!1101 &8370102180696127956
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions: []
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 6835394227897696624}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.91071427
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
