@@ -1202,6 +1202,12 @@ MonoBehaviour:
         destinationDialogueID: 10
         isConnector: 0
         priority: 2
+      - originConversationID: 3
+        originDialogueID: 0
+        destinationConversationID: 3
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1794,7 +1800,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30.638298
+        x: 31.669228
         y: 418.9362
         width: 160
         height: 30
@@ -2083,8 +2089,294 @@ MonoBehaviour:
         y: 170
         width: 160
         height: 30
+    - id: 13
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: No way you actually found the rusted 18 centery jack-in-the-box toy!
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 'LookAt(Player, Toy Salesman);
+
+          LookAt(Toy Salesman, Player);
+
+          {{default}};'
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 13
+        destinationConversationID: 3
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
+      conditionsString: CurrentQuestState("The Golden Cannon") == "success"
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 385.14578
+        y: 71.096725
+        width: 160
+        height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Yes now GIMMIE GIMME!
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 14
+        destinationConversationID: 3
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 385.14578
+        y: 121.096725
+        width: 160
+        height: 30
+    - id: 15
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I am a man of my word.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 15
+        destinationConversationID: 3
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 385.14578
+        y: 171.09673
+        width: 160
+        height: 30
+    - id: 16
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Here's your Golden Cappy Cannon.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 'SetActive(WinScreen, True);
+
+          SetActive(Cannon2, False);
+
+          Delay(10000000000000000000)'
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 385.14578
+        y: 221.09673
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 319.774}
+    canvasScrollPosition: {x: 0, y: 16.494858}
     canvasZoom: 0.97
   - id: 4
     fields:
@@ -4530,7 +4822,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 396.47055, y: 385.8823}
     canvasZoom: 0.85000014
   - id: 5
     fields:
@@ -8027,7 +8319,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 294.1176}
+    canvasScrollPosition: {x: 265.88235, y: 265.88232}
     canvasZoom: 0.85
   - id: 6
     fields:
@@ -10027,7 +10319,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 394.50546, y: 0}
+    canvasScrollPosition: {x: 157.14284, y: 0}
     canvasZoom: 0.9100001
   - id: 7
     fields:
@@ -11902,7 +12194,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: That is NOT worth only $20 dollars.
+        value: That is NOT worth only $10 dollars.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -13077,7 +13369,8 @@ MonoBehaviour:
         destinationDialogueID: 33
         isConnector: 0
         priority: 2
-      conditionsString: (CurrentQuestState("I Give It Two Weeks") == "active")
+      conditionsString: (CurrentQuestState("I Give It Two Weeks") == "active") and
+        (CurrentQuestState("I Give It Two Weeks") ~= "success")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -13587,7 +13880,7 @@ MonoBehaviour:
         destinationDialogueID: 36
         isConnector: 0
         priority: 2
-      conditionsString: (CurrentQuestState("I Give It Two Weeks") == "success")
+      conditionsString: CurrentQuestState("I Give It Two Weeks") == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -14702,17 +14995,17 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: '(CurrentQuestState("Something For The Smell") == "success")
+      userScript: 'SetQuestState("Something For The Smell", "success");
 
         ShowAlert("Quest
-        \"Something For The Smell\" Completed.");'
+        \"Something For The Smell\" Completed.")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
         x: 598.0851
-        y: 820
+        y: 820.97095
         width: 160
         height: 30
     - id: 51
@@ -15015,7 +15308,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 66.99031}
+    canvasScrollPosition: {x: 342.71844, y: 594.1749}
     canvasZoom: 1.03
   - id: 10
     fields:
@@ -16586,8 +16879,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 380
-        y: 79
+        x: 379.05664
+        y: 79.94339
         width: 160
         height: 30
     - id: 21
@@ -16719,7 +17012,7 @@ MonoBehaviour:
         destinationDialogueID: 23
         isConnector: 0
         priority: 2
-      conditionsString: (CurrentQuestState("Something For The Smell") == "success")
+      conditionsString: CurrentQuestState("Something For The Smell") == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -17211,10 +17504,10 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: '(CurrentQuestState("Worth A Thousand Lyrics") == "success")
+      userScript: 'SetQuestState("Worth A Thousand Lyrics", "success");
 
         ShowAlert("Quest
-        \"Worth A Thousand Lyrics\" Completed.");'
+        \"Worth A Thousand Lyrics\" Completed.")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -17365,8 +17658,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 84.21051, y: 255.26308}
-    canvasZoom: 0.7600002
+    canvasScrollPosition: {x: 207.54715, y: 214.15094}
+    canvasZoom: 1.0600001
   - id: 11
     fields:
     - title: Title
@@ -17766,10 +18059,10 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: '(CurrentQuestState("I Give It Two Weeks") == "success")
+      userScript: 'SetQuestState("I Give It Two Weeks", "success");
 
         ShowAlert("Quest
-        \"I Give It Two Weeks\" Completed.");'
+        \"I Give It Two Weeks\" Completed.")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
