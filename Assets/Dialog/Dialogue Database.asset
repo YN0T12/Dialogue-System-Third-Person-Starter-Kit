@@ -2371,7 +2371,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 385.14578
+        x: 384.11487
         y: 221.09673
         width: 160
         height: 30
@@ -11925,10 +11925,6 @@ MonoBehaviour:
           AnimatorPlay(Talking,
           Girlfriend);
 
-          SetCinemachineBrain(false);
-
-          Camera(PaintingCamera);
-
           Delay(2);'
         type: 0
         typeString: 
@@ -12006,6 +12002,8 @@ MonoBehaviour:
 
           AnimatorPlay(Talking,
           Girlfriend);
+
+          SetCinemachineBrain(true);
 
           Delay(2);'
         type: 0
@@ -15364,7 +15362,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 153.1915}
+    canvasScrollPosition: {x: 0, y: 232.97873}
     canvasZoom: 0.94000006
   - id: 10
     fields:
@@ -16488,7 +16486,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'AnimatorPlay(Roar, Zombie);
+
+          {{default}}'
         type: 0
         typeString: 
       conversationID: 10
@@ -17720,7 +17720,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 0, y: 38.14427}
     canvasZoom: 0.97000015
   - id: 11
     fields:
