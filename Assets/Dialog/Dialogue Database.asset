@@ -10319,7 +10319,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 157.14284, y: 0}
+    canvasScrollPosition: {x: 0, y: 180.21976}
     canvasZoom: 0.9100001
   - id: 7
     fields:
@@ -11495,7 +11495,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 31
-        y: 170
+        y: 171.06383
         width: 160
         height: 30
     - id: 4
@@ -11843,7 +11843,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetCinemachineBrain(false);
+
+          Camera(WashCamera);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 9
@@ -11867,7 +11871,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 201.84471
+        x: 202.90855
         y: 367.08737
         width: 160
         height: 30
@@ -11916,7 +11920,14 @@ MonoBehaviour:
       - title: Sequence
         value: 'LookAt(Player, Girlfriend);
 
-          AnimatorPlay(Talking, Girlfriend);
+          LookAt(Girlfriend, Player);
+
+          AnimatorPlay(Talking,
+          Girlfriend);
+
+          SetCinemachineBrain(false);
+
+          Camera(PaintingCamera);
 
           Delay(2);'
         type: 0
@@ -11991,7 +12002,10 @@ MonoBehaviour:
       - title: Sequence
         value: 'LookAt(Player, Girlfriend);
 
-          AnimatorPlay(Talking, Girlfriend);
+          LookAt(Girlfriend, Player);
+
+          AnimatorPlay(Talking,
+          Girlfriend);
 
           Delay(2);'
         type: 0
@@ -12137,7 +12151,10 @@ MonoBehaviour:
       - title: Sequence
         value: 'LookAt(Girlfriend, Boyfriend);
 
-          AnimatorPlay(Yelling, Boyfriend);
+          LookAt(Boyfriend, Player);
+
+          AnimatorPlay(Yelling,
+          Boyfriend);
 
           Delay(2);'
         type: 0
@@ -12214,8 +12231,10 @@ MonoBehaviour:
 
           LookAt(Boyfriend, Girlfriend);
 
-          AnimatorPlay(Yelling,
-          Boyfriend);
+          LookAt(Boyfriend,
+          Player);
+
+          AnimatorPlay(Yelling, Boyfriend);
 
           Delay(2);'
         type: 0
@@ -12292,8 +12311,10 @@ MonoBehaviour:
 
           LookAt(Boyfriend, Girlfriend);
 
-          AnimatorPlay(Yelling,
-          Boyfriend);
+          LookAt(Boyfriend,
+          Player);
+
+          AnimatorPlay(Yelling, Boyfriend);
 
           Delay(2);'
         type: 0
@@ -12370,8 +12391,10 @@ MonoBehaviour:
 
           LookAt(Boyfriend, Girlfriend);
 
-          AnimatorPlay(Yelling,
-          Girlfriend);
+          LookAt(Girlfriend,
+          Player);
+
+          AnimatorPlay(Yelling, Girlfriend);
 
           Delay(2);'
         type: 0
@@ -12519,8 +12542,10 @@ MonoBehaviour:
 
           LookAt(Boyfriend, Girlfriend);
 
-          AnimatorPlay(Yelling,
-          Boyfriend);
+          LookAt(Boyfriend,
+          Player);
+
+          AnimatorPlay(Yelling, Boyfriend);
 
           Delay(2);'
         type: 0
@@ -12597,8 +12622,10 @@ MonoBehaviour:
 
           LookAt(Boyfriend, Girlfriend);
 
-          AnimatorPlay(Yelling,
-          Boyfriend);
+          LookAt(Boyfriend,
+          Player);
+
+          AnimatorPlay(Yelling, Boyfriend);
 
           Delay(2);'
         type: 0
@@ -12675,8 +12702,10 @@ MonoBehaviour:
 
           LookAt(Boyfriend, Girlfriend);
 
-          AnimatorPlay(Yelling,
-          Girlfriend);
+          LookAt(Girlfriend,
+          Player);
+
+          AnimatorPlay(Yelling, Girlfriend);
 
           Delay(2);'
         type: 0
@@ -12822,7 +12851,10 @@ MonoBehaviour:
       - title: Sequence
         value: 'LookAt(Player, Boyfriend);
 
-          AnimatorPlay(Talking, Boyfriend);
+          LookAt(Boyfriend, Player);
+
+          AnimatorPlay(Talking,
+          Boyfriend);
 
           Delay(2);'
         type: 0
@@ -13499,6 +13531,9 @@ MonoBehaviour:
 
           AnimatorPlay(Yelling, Girlfriend);
 
+          LookAt(Girlfriend,
+          Player);
+
           Delay(2);'
         type: 0
         typeString: 
@@ -13573,6 +13608,9 @@ MonoBehaviour:
         value: 'LookAt(Girlfriend, Boyfriend);
 
           AnimatorPlay(Yelling, Girlfriend);
+
+          LookAt(Girlfriend,
+          Player);
 
           Delay(2);'
         type: 0
@@ -13715,7 +13753,7 @@ MonoBehaviour:
       - title: Sequence
         value: 'LookAt(Boyfriend, Girlfriend);
 
-          LookAt(Girlfriend, Player);
+          LookAt(Boyfriend, Player);
 
           AnimatorPlay(Yelling,
           Boyfriend);
@@ -14314,7 +14352,10 @@ MonoBehaviour:
       - title: Sequence
         value: 'LookAt(Player, Boyfriend);
 
-          AnimatorPlay(Talking, Boyfriend);
+          LookAt(Boyfriend, Player);
+
+          AnimatorPlay(Talking,
+          Boyfriend);
 
           Delay(2);'
         type: 0
@@ -14539,7 +14580,10 @@ MonoBehaviour:
       - title: Sequence
         value: 'LookAt(Boyfriend, Girlfriend);
 
-          AnimatorPlay(Talking, Girlfriend);
+          LookAt(Girlfriend, Player);
+
+          AnimatorPlay(Talking,
+          Girlfriend);
 
           Delay(2);'
         type: 0
@@ -14614,7 +14658,10 @@ MonoBehaviour:
       - title: Sequence
         value: 'LookAt(Girlfriend, Boyfriend);
 
-          AnimatorPlay(Yelling, Boyfriend);
+          LookAt(Boyfriend, Player);
+
+          AnimatorPlay(Yelling,
+          Boyfriend);
 
           Delay(2);'
         type: 0
@@ -14760,7 +14807,10 @@ MonoBehaviour:
       - title: Sequence
         value: 'LookAt(Player, Boyfriend);
 
-          AnimatorPlay(Yelling, Boyfriend);
+          LookAt(Boyfriend, Player);
+
+          AnimatorPlay(Yelling,
+          Boyfriend);
 
           Delay(2);'
         type: 0
@@ -14835,7 +14885,10 @@ MonoBehaviour:
       - title: Sequence
         value: 'LookAt(Player, Girlfriend);
 
-          AnimatorPlay(Yelling, Girlfriend);
+          LookAt(Girlfriend, Player);
+
+          AnimatorPlay(Yelling,
+          Girlfriend);
 
           Delay(2);'
         type: 0
@@ -14861,7 +14914,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 598.0851
+        x: 599.1489
         y: 720
         width: 160
         height: 30
@@ -14910,7 +14963,10 @@ MonoBehaviour:
       - title: Sequence
         value: 'LookAt(Player, Boyfriend);
 
-          AnimatorPlay(Yelling, Boyfriend);
+          LookAt(Boyfriend, Player);
+
+          AnimatorPlay(Yelling,
+          Boyfriend);
 
           Delay(2);'
         type: 0
@@ -15308,8 +15364,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 342.71844, y: 594.1749}
-    canvasZoom: 1.03
+    canvasScrollPosition: {x: 0, y: 153.1915}
+    canvasZoom: 0.94000006
   - id: 10
     fields:
     - title: Title
@@ -15787,7 +15843,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetCinemachineBrain(false);
+
+          Camera(PaintingCamera);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 10
@@ -15858,7 +15918,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetCinemachineBrain(true);
+
+          {{default}};'
         type: 0
         typeString: 
       conversationID: 10
@@ -17658,8 +17720,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 207.54715, y: 214.15094}
-    canvasZoom: 1.0600001
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.97000015
   - id: 11
     fields:
     - title: Title
@@ -17905,6 +17967,14 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: 'SetCinemachineBrain(false);
+
+          Camera(LampCamera);
+
+          {{default}};'
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
         value: 
         type: 0
         typeString: 
@@ -18047,7 +18117,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: SetActive(Lamp, false);
+        value: 'SetActive(Lamp, false);
+
+          SetCinemachineBrain(true);
+
+          {{default}};'
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 11
